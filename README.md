@@ -58,7 +58,9 @@ You’ll get a menu like:
 3. Decrypt file
 4. Exit
 Select option (1-4):
+
 1️⃣ Generate Key Pair
+
 Prompts for a directory to store keys (keys/ by default)
 
 Creates:
