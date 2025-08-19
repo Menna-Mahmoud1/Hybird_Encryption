@@ -21,8 +21,8 @@ This tool enables you to:
 
 ## 📂 Repository Structure
 .
-├── Hybird_AES.py  # the tool
-└── read.md # this documentation
+├──Hybird_AES.py  # the tool
+└──read.md # this documentation
 
 ---
 
