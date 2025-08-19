@@ -63,11 +63,11 @@ Prompts for a directory to store keys (keys/ by default)
 
 Creates:
 
-📄 mlkem512_public.key
+-mlkem512_public.key
 
-📄 mlkem512_secret.key
+-mlkem512_secret.key
 
-2️⃣ Encrypt File
+-Encrypt File
 Prompts for:
 
 📂 File path to encrypt
@@ -102,7 +102,7 @@ Uses ML-KEM-512 to derive a public/secret key pair.
 Performs KEM encryption:
 
 
-ct, ss = kem.encrypt(public_key)
+    ct, ss = kem.encrypt(public_key)
    ct: ciphertext that hides the shared secret
    ss: shared secret used to derive AES key via HKDF
 
@@ -119,18 +119,22 @@ Derives AES key
 Decrypts & verifies integrity with AES-GCM
 
 🧮 Algorithms Used
-🧩 ML-KEM-512 (Kyber) → Post-quantum key encapsulation
 
-🔒 AES-256-GCM → Authenticated symmetric encryption
+-ML-KEM-512 (Kyber) → Post-quantum key encapsulation
 
-🌐 HKDF-SHA256 → Derive AES key from KEM’s shared secret
+-AES-256-GCM → Authenticated symmetric encryption
+
+-HKDF-SHA256 → Derive AES key from KEM’s shared secret
 
 📋 Prerequisites
-🐍 Python 3.8+
+
+ Python 3.8+
 
 Install required libraries:
-   pip install pycryptodome pqcrypto
+
+    pip install pycryptodome pqcrypto
    
 
 ✨ Built as part of a post-quantum cryptography project to securely combine Kyber + AES for file protection.
+
 📩 If you have questions or feedback, feel free to reach out!
