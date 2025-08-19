@@ -90,7 +90,9 @@ Prompts for:
 Outputs decrypted file prefixed with dec_
 
 🛠️ How It Works
+
 🔑 Key Generation
+
 Uses ML-KEM-512 to derive a public/secret key pair.
 
 📤 Encryption
