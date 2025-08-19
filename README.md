@@ -104,6 +104,7 @@ Performs KEM encryption:
 
     ct, ss = kem.encrypt(public_key)
    ct: ciphertext that hides the shared secret
+   
    ss: shared secret used to derive AES key via HKDF
 
 Encrypts file with AES-GCM (with nonce and tag)
