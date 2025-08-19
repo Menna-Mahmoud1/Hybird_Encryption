@@ -69,27 +69,29 @@ Creates:
 
 -mlkem512_secret.key
 
--Encrypt File
+📂 Encrypt File
+
 Prompts for:
 
-📂 File path to encrypt
+ -File path to encrypt
 
-🔑 Public key path
+ -Public key path
 
 Produces <filename>.pq.json that includes:
 
-🧾 KEM ciphertext
+-KEM ciphertext
 
-🌀 AES nonce & authentication tag
+-AES nonce & authentication tag
 
-🔐 AES-encrypted blob
+-AES-encrypted blob
 
 3️⃣ Decrypt File
+
 Prompts for:
 
-📂 Encrypted JSON path
+ - Encrypted JSON path
 
-🔑 Secret key path
+ - Secret key path
 
 Outputs decrypted file prefixed with dec_
 
