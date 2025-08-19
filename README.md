@@ -31,6 +31,7 @@ This tool enables you to:
 1. **Clone the repository**
   
    git clone https://github.com/Menna-Mahmoud1/Hybird_Encryption.git
+   
    cd Hybird_Encryption
    
 Install dependencies (requires Python 3.8+):
