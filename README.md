@@ -36,7 +36,7 @@ This tool enables you to:
    
 Install dependencies (requires Python 3.8+):
 
-   pip install pycryptodome pqcrypto
+     pip install pycryptodome pqcrypto
 
 📚 Library breakdown:
 
